@@ -88,6 +88,7 @@ class Optimizer(ABC):
         initialize instance properties
         """
 
+    @abstractmethod
     def __call__(self, *args, **kwargs):
         """
         run Optimizer
