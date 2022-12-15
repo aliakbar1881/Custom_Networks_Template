@@ -19,5 +19,11 @@ source init.sh
 --------
 
 TODO:
- - impelement logistic regression
- - impelement neural network
+ - MNIST tets
+ - CIPHAR test
+ - add more activation and optimizer functions
+ - add CNN layers
+ - add Maxpooling layers
+ - add more loss function
+ - add additional features
+ - optimize
