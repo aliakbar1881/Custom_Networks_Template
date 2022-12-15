@@ -26,4 +26,5 @@ TODO:
  - add Maxpooling layers
  - add more loss function
  - add additional features
- - optimize
+ - optimizatin
+ - add forward-forward prop that released few weeks ago by Mr Hinton
