@@ -18,4 +18,4 @@
 #===============================================================================
 
 set -o nounset                              # Treat unset variables as an error
-export PYTHONPATH="${PWD}/src/template_network"
+export PYTHONPATH="${PWD}/src"
