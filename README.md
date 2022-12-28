@@ -1,5 +1,5 @@
-# Custom_Networks_Template
-This is a repo to base fuondation of another custom networks
+# Tempnet
+This is a repo to base fuondation of networks
 --------
 
 ### how to run:
@@ -19,5 +19,12 @@ source init.sh
 --------
 
 TODO:
- - impelement logistic regression
- - impelement neural network
+- Adam optimizer
+- Adagard optimizer
+- RMSProp optimizer
+- Tanh activation
+- Sigmoid actvation
+
+## MNIST Test result:
+
+## CIPHAR Test result

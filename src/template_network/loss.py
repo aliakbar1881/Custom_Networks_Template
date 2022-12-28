@@ -1,3 +1,9 @@
+from abc import ABC, abstractmethod
+
+
+import numpy as np
+
+
 class Loss(ABC):
     """
     loss function to caluclate differences between perdiction and actual value
@@ -16,4 +22,4 @@ class Loss(ABC):
 
 class MeanSquaredError(Loss):
     def __call__(self, y_hat, label):
-        return label - y_hat
+        return np.sum((label - y_hat) ** 2) / label.shape[0]
