@@ -22,20 +22,5 @@ class Node(ABC):
 
 
 
-class Optimizer(ABC):
-    """
-    optimizer for fastest convergence
-    """
-    def __init__(self, *args, **kwargs):
-        """
-        initialize instance properties
-        """
-
-    @abstractmethod
-    def __call__(self, *args, **kwargs):
-        """
-        run Optimizer
-        """
-
 
 

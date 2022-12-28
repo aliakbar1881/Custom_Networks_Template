@@ -130,3 +130,5 @@ dmypy.json
 
 # Custom files and folders
 tmp/
+.ipynb_checkpoints
+__pycache__/

@@ -1,5 +1,5 @@
-# Custom_Networks_Template
-This is a repo to base fuondation of another custom networks
+# Tempnet
+This is a repo to base fuondation of networks
 --------
 
 ### how to run:
@@ -19,12 +19,12 @@ source init.sh
 --------
 
 TODO:
- - MNIST tets
- - CIPHAR test
- - add more activation and optimizer functions
- - add CNN layers
- - add Maxpooling layers
- - add more loss function
- - add additional features
- - optimizatin
- - add forward-forward prop that released few weeks ago by Mr Hinton
+- Adam optimizer
+- Adagard optimizer
+- RMSProp optimizer
+- Tanh activation
+- Sigmoid actvation
+
+## MNIST Test result:
+
+## CIPHAR Test result
